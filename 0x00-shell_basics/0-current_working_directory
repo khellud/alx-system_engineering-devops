@@ -1,2 +1,3 @@
 #!/bin/bash
-pwd
+cwd=$(pwd -P)
+echo "$cwd"
